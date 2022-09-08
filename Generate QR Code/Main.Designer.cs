@@ -44,6 +44,7 @@
             this.tbHeight = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.removeLogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
@@ -63,6 +64,7 @@
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openLogoToolStripMenuItem,
+            this.removeLogoToolStripMenuItem,
             this.saveToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
@@ -72,21 +74,21 @@
             // openLogoToolStripMenuItem
             // 
             this.openLogoToolStripMenuItem.Name = "openLogoToolStripMenuItem";
-            this.openLogoToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.openLogoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.openLogoToolStripMenuItem.Text = "Open Logo";
             this.openLogoToolStripMenuItem.Click += new System.EventHandler(this.openLogoToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveToolStripMenuItem.Text = "Save As";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // statusStrip1
@@ -195,6 +197,13 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Width";
             // 
+            // removeLogoToolStripMenuItem
+            // 
+            this.removeLogoToolStripMenuItem.Name = "removeLogoToolStripMenuItem";
+            this.removeLogoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.removeLogoToolStripMenuItem.Text = "Remove Logo";
+            this.removeLogoToolStripMenuItem.Click += new System.EventHandler(this.removeLogoToolStripMenuItem_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -243,6 +252,7 @@
         private System.Windows.Forms.TextBox tbHeight;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolStripMenuItem removeLogoToolStripMenuItem;
     }
 }
 

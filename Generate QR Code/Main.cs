@@ -233,5 +233,12 @@ namespace Generate_QR_Code
             }
 
         }
+
+        private void removeLogoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bitmapLogo = null;
+            pictureBoxLogo.Image = null;
+            btnGenerate.PerformClick();
+        }
     }
 }
