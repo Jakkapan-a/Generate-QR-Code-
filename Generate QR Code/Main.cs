@@ -231,7 +231,6 @@ namespace Generate_QR_Code
                 }
                 QrCode.Save(sfd.FileName, format);
             }
-
         }
 
         private void removeLogoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -239,6 +238,11 @@ namespace Generate_QR_Code
             bitmapLogo = null;
             pictureBoxLogo.Image = null;
             btnGenerate.PerformClick();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
